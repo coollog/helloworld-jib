@@ -33,7 +33,7 @@ public class HelloWorld {
     Path worldFile = Paths.get(classLoader.getResource("world2").toURI());
     String world = new String(Files.readAllBytes(worldFile), StandardCharsets.UTF_8);
 
-    System.out.println(greeting + ", asdfjkl;" + world);
+    System.out.println(greeting + ", " + world);
 
     if (System.getProperty("flag") != null) {
       System.out.println("Passed flag -Dflag=" + System.getProperty("flag"));
