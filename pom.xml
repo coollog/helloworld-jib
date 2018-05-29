@@ -20,7 +20,7 @@
       <artifactId>dependency</artifactId>
       <version>1.0.0</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/libs/dependency-1.0.0.jar</systemPath>
+      <systemPath>${project.basedir}/libs/dependency.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -47,7 +47,7 @@
         <version>${jib-maven-plugin.version}</version>
         <configuration>
           <to>
-            <image>gcr.io/qingyangc-sandbox/jibtestimage:askfjl/waegawvw/aweg</image>
+            <image>gcr.io/qingyangc-sandbox/jibtestimage:${maven.build.timestamp}</image>
           </to>
         </configuration>
       </plugin>
