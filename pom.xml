@@ -9,8 +9,6 @@
     <java.source.version>1.8</java.source.version>
     <java.target.version>1.8</java.target.version>
 
-    <jib-maven-plugin.version>0.1.8-SNAPSHOT</jib-maven-plugin.version>
-
     <maven.build.timestamp.format>yyyyMMdd-HHmmssSSS</maven.build.timestamp.format>
   </properties>
 
@@ -44,7 +42,7 @@
       <plugin>
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>jib-maven-plugin</artifactId>
-        <version>${jib-maven-plugin.version}</version>
+        <version>0.9.14-SNAPSHOT</version>
         <configuration>
           <to>
             <image>gcr.io/qingyangc-sandbox/jibtestimage:${maven.build.timestamp}</image>
