@@ -3,7 +3,7 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath 'com.google.cloud.tools:jib-gradle-plugin:0.1.2-SNAPSHOT'
+        classpath 'com.google.cloud.tools:jib-gradle-plugin:0.9.14-SNAPSHOT'
     }
 }
 
@@ -24,10 +24,6 @@ targetCompatibility = JavaVersion.VERSION_1_8
 dependencies {
     compile name: 'dependency'
     compile 'com.google.guava:guava:23.6-jre'
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.6'
 }
 
 apply plugin: 'com.google.cloud.tools.jib'
