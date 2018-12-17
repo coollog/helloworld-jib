@@ -42,7 +42,7 @@
       <plugin>
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>jib-maven-plugin</artifactId>
-        <version>0.9.14-SNAPSHOT</version>
+        <version>0.10.2-SNAPSHOT</version>
         <configuration>
           <to>
             <image>gcr.io/qingyangc-sandbox/jibtestimage:${maven.build.timestamp}</image>

@@ -3,7 +3,7 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath 'com.google.cloud.tools:jib-gradle-plugin:0.9.14-SNAPSHOT'
+        classpath 'com.google.cloud.tools:jib-gradle-plugin:0.10.2-SNAPSHOT'
     }
 }
 
